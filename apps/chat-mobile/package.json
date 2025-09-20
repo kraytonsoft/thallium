@@ -1,0 +1,44 @@
+{
+  "name": "@bvno/chat-mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/chat-mobile",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@types/lodash": "*"
+  },
+  "dependencies": {
+    "@bvno/api": "*",
+    "@bvno/ui": "*",
+    "@expo/metro-config": "*",
+    "@shopify/restyle": "*",
+    "@expo/vector-icons": "*",
+    "@testing-library/react-native": "*",
+    "expo": "*",
+    "expo-splash-screen": "*",
+    "expo-status-bar": "*",
+    "expo-system-ui": "*",
+    "jest-expo": "*",
+    "metro-config": "*",
+    "metro-resolver": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-svg-transformer": "*",
+    "@gorhom/bottom-sheet": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "lodash": "*",
+    "react-hook-form": "*",
+    "react-native-date-picker": "*",
+    "zod": "*",
+    "@hookform/resolvers": "*",
+    "@react-navigation/native": "*",
+    "react-native-error-boundary": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "radiant-mobile",
+  "projectType": "application",
+  "sourceRoot": "apps/radiant-mobile/src",
+  "targets": {
+    "start": {
+      "executor": "@nx/expo:start",
+      "options": { "devClient": true },
+      "configurations": {
+        "android": { "android": true },
+        "ios": { "ios": true },
+        "web": { "web": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/chat-mobile"
+    },
+    {
+      "path": "./apps/radiant-mobile"
+    },
+    {
+      "path": "./packages/ui"
+    },
+    {
+      "path": "./packages/api"
+    },
+    {
+      "path": "./packages/api"
+    }
+  ]
+}
