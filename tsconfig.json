@@ -4,7 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/chat-mobile"
+      "path": "./apps/plan-pilot"
     },
     {
       "path": "./apps/radiant-mobile"
@@ -16,7 +16,7 @@
       "path": "./packages/sdk"
     },
     {
-      "path": "./packages/nucleus"
+      "path": "./packages/catalyst"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "name": "@thallium/chat-mobile",
+  "name": "@thallium/plan-pilot",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/chat-mobile",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/plan-pilot",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },

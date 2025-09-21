@@ -1,7 +1,7 @@
 {
-  "name": "chat-mobile",
+  "name": "plan-pilot",
   "projectType": "application",
-  "sourceRoot": "apps/chat-mobile/src",
+  "sourceRoot": "apps/plan-pilot/src",
   "targets": {
     "start": {
       "executor": "@nx/expo:start",
