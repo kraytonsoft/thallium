@@ -4,7 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/plan-pilot"
+      "path": "./apps/app-plan-pilot"
     },
     {
       "path": "./apps/radiant-mobile"

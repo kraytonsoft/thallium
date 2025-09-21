@@ -1,5 +1,5 @@
 {
-  "name": "@thallium/plan-pilot",
+  "name": "@thallium/app-plan-pilot",
   "version": "0.0.1",
   "private": true,
   "scripts": {
