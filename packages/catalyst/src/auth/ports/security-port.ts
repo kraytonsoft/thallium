@@ -1,5 +1,5 @@
 import { TokenResult } from './token-result.js';
-import { Duration } from '../../domain/core/duration.js';
+import { Duration } from '../../domain/model/duration.js';
 
 export interface SecurityPort {
   generateJwtTokenForEntityId(entityId: string, ttl: Duration): Promise<TokenResult>;

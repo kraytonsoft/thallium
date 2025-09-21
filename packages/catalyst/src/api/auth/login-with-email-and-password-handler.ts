@@ -1,10 +1,12 @@
-import { PrincipalQueryPort } from '../ports/principal-query-port.js';
-import { TokenResult } from '../ports/token-result.js';
-import { SecurityPort } from '../ports/security-port.js';
-import { Duration } from '../../domain/core/duration.js';
-import AuthError from '../errors/auth-error.js';
-import { AuthErrorCodesEnum } from '../errors/auth-error-codes-enum.js';
-import {isNil} from "lodash"
+import {
+  PrincipalQueryPort,
+  SecurityPort,
+  TokenResult,
+} from '../../auth/index.js';
+import { Duration } from '../../domain/model/duration.js';
+import { isNil } from 'lodash';
+import AuthError from '../../auth/errors/auth-error.js';
+import { AuthErrorCodesEnum } from '../../auth/errors/auth-error-codes-enum.js';
 
 export default class LoginHandler {
   public constructor(

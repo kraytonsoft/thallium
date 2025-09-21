@@ -22,3 +22,8 @@ export const ProviderUidPrincipalAppleResultSchema = ProviderUidPrincipalResultS
   provider: z.literal(PrincipalTypeEnum.apple),
 })
 export type ProviderUidPrincipalAppleResult = z.infer<typeof ProviderUidPrincipalResultSchema>;
+export const ProviderUidPrincipalGoogleResultSchema = ProviderUidPrincipalResultSchema.extend({
+  provider: z.literal(PrincipalTypeEnum.apple),
+})
+export type ProviderUidPrincipalGoogleResult = z.infer<typeof ProviderUidPrincipalResultSchema>;
+export type UidPrincipalResult = ProviderUidPrincipalAppleResult | ProviderUidPrincipalGoogleResult
