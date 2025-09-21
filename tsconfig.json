@@ -10,13 +10,13 @@
       "path": "./apps/radiant-mobile"
     },
     {
-      "path": "./packages/ui"
+      "path": "./packages/mobile-ui"
     },
     {
-      "path": "./packages/api"
+      "path": "./packages/sdk"
     },
     {
-      "path": "./packages/api"
+      "path": "./packages/nucleus"
     }
   ]
 }

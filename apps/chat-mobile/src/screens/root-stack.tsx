@@ -6,7 +6,7 @@ import {
   useBottomSheetRef,
   useModal,
   useConstantSnapPoint,
-} from '@bvno/ui/helpers';
+} from '@thallium/mobile-ui/helpers';
 import {
   makeBox,
   makeButton,
@@ -18,19 +18,19 @@ import {
   makeSwitch,
   makeTextInput,
   makeTypography,
-} from '@bvno/ui/primitives';
+} from '@thallium/mobile-ui/primitives';
 import type { AppTheme } from '../theme';
 import {
   makeBottomSheet,
   makeCard,
   makeGenericList,
   makeGenericModal,
-} from '@bvno/ui/composites';
+} from '@thallium/mobile-ui/composites';
 import {
   makeControlledDatePicker,
   makeControlledInput,
   makeControlledSelect,
-} from '@bvno/ui/form';
+} from '@thallium/mobile-ui/form';
 import { z } from 'zod';
 import { capitalize } from 'lodash';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@bvno/chat-mobile",
+  "name": "@thallium/chat-mobile",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,8 +11,8 @@
     "@types/lodash": "*"
   },
   "dependencies": {
-    "@bvno/api": "*",
-    "@bvno/ui": "*",
+    "@thallium/sdk": "*",
+    "@thallium/mobile-ui": "*",
     "@expo/metro-config": "*",
     "@shopify/restyle": "*",
     "@expo/vector-icons": "*",

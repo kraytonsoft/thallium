@@ -15,7 +15,7 @@ import {
 import { useTheme as useRestyleTheme, type BaseTheme } from '@shopify/restyle';
 import { isNil } from 'lodash';
 
-import type { ButtonVariantNameFrom } from '@bvno/ui/theme';
+import type { ButtonVariantNameFrom } from '@thallium/mobile-ui/theme';
 import { makeBox, makeButton, makeIcon, makeTypography } from '../primitives';
 import { BottomSheetProps, makeBottomSheet } from '../composites';
 import { useBottomSheetRef } from '../helpers';
