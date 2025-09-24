@@ -4,6 +4,12 @@
   "include": [],
   "references": [
     {
+      "path": "../../packages/mobile-ui"
+    },
+    {
+      "path": "../../packages/sdk"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ]

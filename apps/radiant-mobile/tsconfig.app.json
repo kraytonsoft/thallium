@@ -32,5 +32,13 @@
     "**/*.jsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../packages/mobile-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/sdk/tsconfig.lib.json"
+    }
   ]
 }
