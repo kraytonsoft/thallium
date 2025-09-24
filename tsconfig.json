@@ -17,6 +17,9 @@
     },
     {
       "path": "./packages/catalyst"
+    },
+    {
+      "path": "./apps/veterinarius"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "plan-pilot",
+  "name": "@thallium/app-plan-pilot",
   "projectType": "application",
   "sourceRoot": "apps/plan-pilot/src",
   "targets": {
